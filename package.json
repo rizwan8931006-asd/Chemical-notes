@@ -1,0 +1,29 @@
+{
+  "name": "secure-notes",
+  "version": "1.0.0",
+  "description": "Protected educational content platform: sell your PDF as password-protected, device-bound online pages with per-user watermarking.",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/seed.js",
+    "seed": "node scripts/seed.js",
+    "make-demo-pdf": "node scripts/make-demo-pdf.js",
+    "upload-pdf": "node scripts/upload-pdf.js",
+    "build-site": "node scripts/build-staticsite.js",
+    "smoke-test": "node scripts/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mupdf": "^1.28.1",
+    "multer": "^2.0.0"
+  }
+}

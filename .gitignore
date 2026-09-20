@@ -1,0 +1,10 @@
+node_modules/
+data/app.sqlite-shm
+data/app.sqlite-wal
+data/app.sqlite.bak*
+data/.secret
+data/uploads/*.pdf
+.env
+*.log
+logs/
+tools/
